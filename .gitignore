@@ -137,3 +137,31 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# ---追加分（Shinjiカスタム）---
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Cache / Temp
+.cache/
+tmp/
+*.bak
+
+# Logs / Env
+*.log
+.env
+.env.local
+.env.*
+serviceAccount*.json
+*.key
+*.pem
+
+# Flutter / Python（将来の開発用）
+__pycache__/
+.venv/
+build/
+dist/
